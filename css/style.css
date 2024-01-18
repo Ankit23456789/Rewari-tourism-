@@ -1,60 +1,71 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.navbar{
-     background-color:black;
+body {
+      background: rgb(34,193,195);
+      background: linear-gradient(75deg, rgba(34,193,195,1) 30%, rgb(255, 253, 141) 70%);  
 }
+
+.navbar {
+      background-color: black;
+}
+
 a.nav-link {
-    color:whitesmoke;
-    font-size: 18px;
-    align-items: center;
-    width: max-content;
-    text-align: center;
-    border-radius: 3px;
-    cursor: pointer;
-    font-weight: 600;
-    padding: 5px;
-}
-a.nav-link:hover{
-    transition: 2s;
-    background-color: rgb(255, 255, 0);
+      color: whitesmoke;
+      font-size: 18px;
+      align-items: center;
+      width: max-content;
+      text-align: center;
+      border-radius: 3px;
+      cursor: pointer;
+      font-weight: 600;
+      padding: 5px;
 }
 
-.navbar-toggler-icon{
-       background-color: white;
-       border-radius: 5px;
+a.nav-link:hover {
+      transition: 2s;
+      background-color: rgb(255, 255, 0);
+}
+
+.navbar-toggler-icon {
+      background-color: white;
+      border-radius: 5px;
 }
 
 /* .about_Ap{
     margin-top:10px;
     font-size: 23px;
 } */
-.about_paragrpah{
-       font-size: 16px;
-       text-align: justify;
-       width: 80%;
-       margin: 0 auto;
-       padding-bottom:10px ;
+.about_paragrpah {
+      font-size: 16px;
+      text-align: justify;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 10px;
 }
-.About-Section-Heading{
-       font-size: 20px;
-       font-weight: 700;
-       text-align: center;
+
+.About-Section-Heading {
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
 }
-@media  screen and (max-width:750px) {
-      .about_paragrpah{
-             width: 100%;
+
+@media screen and (max-width:750px) {
+      .about_paragrpah {
+            width: 100%;
       }
 }
-.banner img{
-     width: 100vw;
-     height: auto;
-     border-radius: 10px;
+
+.banner img {
+      width: 100vw;
+      height: auto;
+      border-radius: 10px;
 }
+
 .navbar-brand h1 {
       color: rgb(255, 255, 255);
       justify-content: center;
@@ -62,63 +73,75 @@ a.nav-link:hover{
       text-shadow: 6px 6px 5px rgb(189, 241, 255);
 
 }
-.History-Section{
-    width: 100%;
-    overflow-x: hidden;
-}
-.History-Section h2{
-      text-align: center; margin-top: 10px;font-weight: 500;
+
+.History-Section {
+      width: 100%;
+      overflow-x: hidden;
 }
 
-.History-Section .Hisrtory-headings{
-     font-size: 20px;
-     font-weight: 700;
+.History-Section h2 {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 500;
 }
-.History_paragraph-section{
-       font-size: 16px;
-       font-weight: 400;
-       margin-top: 5px;
-       text-align: justify;
-      
+
+.History-Section .Hisrtory-headings {
+      font-size: 20px;
+      font-weight: 700;
 }
-.HistoricalPlaces{
-       width: 100%;
-       height: auto;
-       overflow-x: hidden;
+
+.History_paragraph-section {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 5px;
+      text-align: justify;
+
 }
+
+.HistoricalPlaces {
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+}
+
 /* Hanuman Mandir History Style Section start */
-.Hanumam_mandir_History_box{
-       width: 80%;
-       height: auto;
-       padding: 20px;
+.Hanumam_mandir_History_box {
+      width: 80%;
+      height: auto;
+      padding: 20px;
 }
-.image-box{
-    width: 100%;   
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:20px
+
+.image-box {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px
 }
-.Hanuman_ji_image{
-       width: 90%;
-       height: auto;
-       border-radius: 15px 50px 30px 5px ;
-       border-style:groove;
+
+.Hanuman_ji_image {
+      width: 90%;
+      height: auto;
+      border-radius: 15px 50px 30px 5px;
+      border-style: groove;
       border-width: 15px;
       border-color: black;
-      box-shadow: #F4C430 12px 12px 8px; 
+      box-shadow: #F4C430 12px 12px 8px;
 }
-.History-para-hanumanji-heading{
-       font-size: 20px;
-       font-weight: 600;
-       margin-top: 10px;
+
+.History-para-hanumanji-heading {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 10px;
 }
-.Hanuman_mandir_Paragraph{
-       font-size: 16px;
-       font-weight: 500;
-       
+
+.Hanuman_mandir_Paragraph {
+      font-size: 16px;
+      font-weight: 500;
+
 }
+
 /* Hanuman Mandir History Style Section End */
 .wrapper {
       position: relative;
@@ -128,40 +151,49 @@ a.nav-link:hover{
       color: #fff !important;
 }
 
-.wrapper .owl-prev,
+/* .wrapper .owl-prev,
 .wrapper .owl-next {
-      position: absolute;
-      top: 32%;
+     
       font-size: 5rem;
       background-color: #ffffff !important;
       width: 50px;
       height: 40px;
       border-radius: 10% !important;
       font-weight: bold;
-}
+     
+} */
 
-.owl-prev {
+/* .owl-prev {
       left: -20px;
 }
 
 .owl-next {
       right: -20px;
+} */
+.owl-carousel .owl-nav button.owl-prev {
+      font-size: 20px;
+      width: 30px;
+      height: auto;
+      font-weight: bolder;
+      color: rgb(0, 0, 0);
+      background-color: #F4C430 !important;
+      border-radius: 50%;
 }
-.owl-carousel .owl-nav button.owl-prev{
-       font-size: 28px;
-       font-weight: bolder;
-       color: rgb(0, 0, 0);
-}
-.owl-carousel .owl-nav button.owl-next{
-       font-size: 28px;
-       font-weight: bolder;
-       color: rgb(0, 0, 0);
+
+.owl-carousel .owl-nav button.owl-next {
+      font-size: 20px;
+      width: 30px;
+      height: auto;
+      font-weight: bolder;
+      color: rgb(0, 0, 0);
+      background-color: #F4C430 !important;
+      border-radius: 50%;
 }
 
 .item .card img {
       width: 100%;
       height: 100%;
-     
+
 }
 
 .item .card {
@@ -187,41 +219,46 @@ a.nav-link:hover{
       color: #08215e;
 }
 
-.Hist_places_Img{
-       border-radius: 25px;
-       border-style: groove ;
-       border-width: 10px;
-       border-color:floralwhite;
+.Hist_places_Img {
+      border-radius: 25px;
+      border-style: groove;
+      border-width: 10px;
+      border-color: floralwhite;
 }
-.TPBox{
-       height: 100%;
-       border-style: groove;
-       border-width: 5px;
-       border-radius: 15px;
+
+.TPBox {
+      height: 100%;
+      border-style: groove;
+      border-width: 5px;
+      border-radius: 15px;
       padding: 0px;
       position: relative;
 }
-.TPBox img{
+
+.TPBox img {
       border-radius: 15px;
-      
+
 }
-.Name_of_places{
-       position: absolute;
-       top: 85%;
-       left: 50%;
-       width: 100%;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       transform: translate(-50%, -50%);
-      color: #ffffff ;
+
+.Name_of_places {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
       background-color: blaCK;
       opacity: 0.7;
 }
-.Name_of_places p{
+
+.Name_of_places p {
       font-size: 16px;
       font-weight: 600;
 }
+
 .footer-section {
       width: 100%;
       min-height: 200px;
@@ -303,5 +340,3 @@ a.nav-link:hover{
       font-size: 20px;
       text-align: center;
 }
-
-
