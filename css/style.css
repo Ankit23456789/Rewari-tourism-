@@ -237,25 +237,33 @@ body{
 
 
 .owl-carousel .owl-nav button.owl-prev {
-      font-size: 20px;
-      width: 30px;
+      font-size: 30px;
+      width: 40px;
       height: auto;
       font-weight: bolder;
       color: rgb(0, 0, 0);
       background-color: #F4C430 !important;
-      border-radius: 50%;
 }
 
 .owl-carousel .owl-nav button.owl-next {
-      font-size: 20px;
-      width: 30px;
-      height: auto;
+      font-size: 30px;
+      width: 40px;
+      height: fit-content;
       font-weight: bolder;
       color: rgb(0, 0, 0);
       background-color: #F4C430 !important;
-      border-radius: 50%;
 }
+.owl-carousel .owl-prev, .owl-carousel .owl-next{
+      position: absolute;
+      top: 35%;
 
+}
+.owl-next{
+       right: -20px;
+}
+.owl-prev{
+       left: -20px;
+}
 .item .card img {
       width: 100%;
       height: 100%;
@@ -269,7 +277,7 @@ body{
       padding: 10px;
       width: 100%;
       height: 250px;
-      background-color: transparent;
+      background-color:;
 }
 
 .slider-card-text p {

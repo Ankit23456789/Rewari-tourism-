@@ -22,8 +22,8 @@ $('.owl-carousel').owlCarousel({
     autoplayHoverPause:true,
     nav: true,
     center:false,
-    navText:["<",">"],
-    slideBy: 2,
+    navText:["&#8656","&#8658"],
+    slideBy: 1,
    
     responsive: {
         0: {
