@@ -91,7 +91,7 @@
             gap: 0;
             height: calc(100vh - 50px);
             flex-direction: column;
-            background-color: rgb(3, 36, 93, 0.8);
+            background-color: rgb(0, 0, 0,0.7);
             width: 100%;
             text-align: center;
             transition: 1s;
@@ -100,7 +100,6 @@
             justify-content: center;
             align-items: center baseline;
             z-index: 9999;
-            border-radius:20px;
       }
 
       .nav-item {
@@ -117,7 +116,7 @@
       }
 
       .nav-link {
-            color: #fff;
+            color: #ffffff;
             font-size: 20px;
       }
 
