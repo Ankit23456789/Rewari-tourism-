@@ -4,7 +4,10 @@
       box-sizing: border-box;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       list-style: none;
-      
+      color: #fff;
+}
+body{
+       background-color: #40A2D8;
 }
 
 .navbar {
@@ -62,15 +65,6 @@
       .hamburger {
             display: block;
       }
-
-      .logo {
-            width: 200px;
-      }
-
-      .logo img {
-            width: 100%;
-      }
-
       .hamburger.active .bar:nth-child(2) {
             opacity: 0;
       }
