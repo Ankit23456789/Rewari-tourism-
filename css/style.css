@@ -243,6 +243,7 @@ body{
       font-weight: bolder;
       color: rgb(0, 0, 0);
       background-color: #F4C430 !important;
+      border-radius: 20px;
 }
 
 .owl-carousel .owl-nav button.owl-next {
@@ -251,6 +252,7 @@ body{
       height: fit-content;
       font-weight: bolder;
       color: rgb(0, 0, 0);
+      border-radius: 20px;
       background-color: #F4C430 !important;
 }
 .owl-carousel .owl-prev, .owl-carousel .owl-next{
