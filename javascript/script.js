@@ -6,7 +6,7 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:2000,
     autoplayHoverPause:true,
     nav: true,
-    center:true,
+    center:false,
     navText:["<",">"],
     slideBy: 2,
    
