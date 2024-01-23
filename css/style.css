@@ -302,16 +302,18 @@ body{
 
 .TPBox {
       height: 100%;
+      height: auto;
       border-style: groove;
       border-width: 5px;
       border-radius: 15px;
       padding: 0px;
       position: relative;
-      border-radius: 20px 50px 30px 80px;
+      /* margin: 0px 5px !important; */
+     border-radius: 10px;
 }
 
 .TPBox img {
-      border-radius: 20px 50px 30px 80px;
+      border-radius: 10px;
 
 }
 
