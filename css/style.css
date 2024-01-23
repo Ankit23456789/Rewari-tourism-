@@ -4,10 +4,11 @@
       box-sizing: border-box;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       list-style: none;
+      text-decoration: none;
 }
-body{
-       background-color: #a5dfff;
-}
+/* body{
+      
+} */
 
 .navbar {
       width: 100%;
@@ -370,11 +371,6 @@ body{
       color: #ffffff;
 
 }
-
-.quick-link ul {
-      list-style:disc;
-}
-
 .quick-link ul li a {
       text-decoration: none;
       cursor: pointer;
