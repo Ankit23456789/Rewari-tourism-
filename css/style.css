@@ -370,7 +370,7 @@ body{
 }
 
 .quick-link ul {
-      list-style: none;
+      list-style:disc;
 }
 
 .quick-link ul li a {
@@ -415,4 +415,10 @@ body{
       color: #ffffff;
       font-size: 20px;
       text-align: center;
+}
+@media screen and (max-width:600px) {
+      .footer-paragraph{
+             font-size: 16px !important;
+      }
+      
 }
